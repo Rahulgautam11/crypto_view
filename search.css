@@ -92,3 +92,13 @@ footer>h3 {
 .view_text{
     margin: 0px;
 }
+@media screen and (max-width: 400px) {
+    nav h1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .main>img {
+        width: 60vw;
+    }
